@@ -11,7 +11,7 @@
 	<article>
 		<h1>PENguins</h1>
 	</article>
-	
+	<section id="bothForms">
 		<form>
 			<div id="form">
 				<h1>Log In</h1>
@@ -22,25 +22,33 @@
 				<br/><button type="submit">Sign in</button>
 				<section id="hyperlinks">
 					<a href="#">forgot password?</a>
-					<a href="#register">Not a member yet?</a>
+					<a href="#">Not a member yet?</a>
 				</section>
 			</div>
-			<p>-OR-</p>
+			
 			<div id="register">
 				<h1>Register</h1>
-				<label for="firstName">First Name:<br/></label>
+			
+				<label for="firstName">First Name:</label>
 				<input type="text" name="firstName" id="firstName">
-				<label for="lastName">Last Name:<br/></label>
+				
+				<label for="lastName">Last Name:</label>
 				<input type="text" name="lastName" id="lastName">
-				<label for="userID"></label>
+						
+				<label for="userID">User ID: </label>
 				<input type="text" name="userID" id="userID">
-				<label for="regPassword"><br/>Password:<br/></label>
+		
+				<label for="regPassword">Password:</label>
 				<input type="regPassword" name="regPassword" id="regPassword">
-
+				
+				<label for="email">Email-ID:</label>
+				<input type="text" name="email" id="email">
+				<br/><button type="submit">Register</button>
 			</div>
 
 		</form>
 	</div>
+	</section>
 	<script src="products.js"></script>
 	</body>
 </html>

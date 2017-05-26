@@ -21,6 +21,8 @@ text-align: right;
    height:30px;
    width:100%;
    background:#999;
+}
+
 #form
  {
  	border:2px solid black;
@@ -46,7 +48,7 @@ text-align: right;
 {
 	width: 40%;
 	float: left;
-	font-size: .5em;
+	font-size: 1em;
 }
 
 button
@@ -76,9 +78,9 @@ input
 
 #hyperlinks a
 {
-	width: 40%;
-	float: left;
-	font-size: .5em;
+	width: 50%;
+	font-size: 1em;
+	text-align: center;
 }
 
 button
@@ -95,9 +97,9 @@ button
 
 label, input 
 {
-	width: 80%;
-	margin-right: 10%;
-	margin-left: 10%;
+	width: 70%;
+	margin-right: 15%;
+	margin-left: 15%;
 }
 
 input
@@ -105,3 +107,45 @@ input
 	 border-radius: 10px;
 	 height: 20px;
 }
+
+#register
+{
+	border:2px solid black;
+ 	background-color: lightgray;
+ 	border-radius: 10px;
+ 	padding: 0 10px 10px 10px;
+ 	width: 30%;
+ 	margin: auto;
+ 	overflow: hidden;
+ 	font-family: 'Roboto' , 'sans-serif';
+ 	font-size: 1.2em;
+ 	margin-top: 10px;
+}
+
+#register h1
+{
+	border-bottom: 2px solid black;
+	padding-bottom: 5px;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.grouping
+{
+
+	display: inline-flex;
+	float: left;
+	width: 100%;
+	padding: 5px;
+}
+.grouping label
+{
+	width: 100%;
+}
+.grouping input
+{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
