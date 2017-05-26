@@ -74,3 +74,41 @@ input
 	 height: 20px;
 }
 
+/*****************
+About Page
+*****************/
+
+
+body {
+
+	text-align: center;
+}
+
+h1 {
+
+	font-size: 70px;
+	font-weight: bold;
+	text-align: center;
+	font-color: green;
+	
+}
+
+title {
+
+	font-size: 70px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+p {
+
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin: auto;
+	border: 10px solid red;
+	font-family:'Roboto', sans-serif;
+}
+
+
