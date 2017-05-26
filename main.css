@@ -21,6 +21,8 @@ text-align: right;
    height:30px;
    width:100%;
    background:#999;
+}
+
 #form
  {
  	border:2px solid black;
@@ -46,7 +48,7 @@ text-align: right;
 {
 	width: 40%;
 	float: left;
-	font-size: .5em;
+	font-size: 1em;
 }
 
 button
@@ -74,3 +76,117 @@ input
 	 height: 20px;
 }
 
+<<<<<<< HEAD
+#hyperlinks a
+{
+	width: 50%;
+	font-size: 1em;
+	text-align: center;
+}
+
+button
+{
+	width:50%;
+	margin: 10px 25% 10px 25%;
+	border-radius: 10px;
+	background-color: slategray;
+	border: 1px solid gray;
+	height: 30px;
+	font-size: 1.2em;
+
+}
+
+label, input 
+{
+	width: 70%;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+input
+{
+	 border-radius: 10px;
+	 height: 20px;
+}
+
+#register
+{
+	border:2px solid black;
+ 	background-color: lightgray;
+ 	border-radius: 10px;
+ 	padding: 0 10px 10px 10px;
+ 	width: 30%;
+ 	margin: auto;
+ 	overflow: hidden;
+ 	font-family: 'Roboto' , 'sans-serif';
+ 	font-size: 1.2em;
+ 	margin-top: 10px;
+}
+
+#register h1
+{
+	border-bottom: 2px solid black;
+	padding-bottom: 5px;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.grouping
+{
+
+	display: inline-flex;
+	float: left;
+	width: 100%;
+	padding: 5px;
+}
+.grouping label
+{
+	width: 100%;
+}
+.grouping input
+{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+=======
+/*****************
+About Page
+*****************/
+
+
+body {
+
+	text-align: center;
+}
+
+h1 {
+
+	font-size: 70px;
+	font-weight: bold;
+	text-align: center;
+	font-color: green;
+	
+}
+
+title {
+
+	font-size: 70px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+p {
+
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin: auto;
+	border: 10px solid red;
+	font-family:'Roboto', sans-serif;
+}
+
+
+>>>>>>> master

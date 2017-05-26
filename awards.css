@@ -1,7 +1,12 @@
 body {
 	font-family: 'Open Sans', sans-serif;
-	background-color: lightblue;
-	border: 4px solid;
+	background-color: lightblue;	
+}
+
+#headline {
+	border: 3px solid;
+	width: 70%;
+	text-align: center;
 }
 
 #awards {
