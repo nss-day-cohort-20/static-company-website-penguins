@@ -2,3 +2,19 @@ h1 {
 	font-family: 'Roboto', sans-serif;
 	text-align: left; 
 }
+a {
+	text-decoration: none; 
+font-family: 'Roboto', sans-serif;
+}
+nav {
+text-align: right;
+
+}
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#999;
+}
