@@ -11,6 +11,7 @@ h1 {
 Sign In Page
 *****************/
 
+
 #form
 {
 	border: 1px solid black;
@@ -25,34 +26,3 @@ Sign In Page
 	border-bottom: 1px solid black;
 }
 
-#hyperlinks a
-{
-	width: 40%;
-	float: left;
-	font-size: .5em;
-}
-
-button
-{
-	width:50%;
-	margin: 10px 25% 10px 25%;
-	border-radius: 10px;
-	background-color: slategray;
-	border: 1px solid gray;
-	height: 30px;
-	font-size: 1.2em;
-
-}
-
-label, input 
-{
-	width: 80%;
-	margin-right: 10%;
-	margin-left: 10%;
-}
-
-input
-{
-	 border-radius: 10px;
-	 height: 20px;
-}
