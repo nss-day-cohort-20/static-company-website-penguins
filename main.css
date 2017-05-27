@@ -23,6 +23,10 @@ text-align: right;
    background:#999;
 }
 
+/*****************
+Signin Page
+*****************/
+
 #form
  {
  	border:2px solid black;
@@ -76,7 +80,6 @@ input
 	 height: 20px;
 }
 
-<<<<<<< HEAD
 #hyperlinks a
 {
 	width: 50%;
@@ -150,7 +153,6 @@ input
 	margin: 0;
 }
 
-=======
 /*****************
 About Page
 *****************/
@@ -189,4 +191,4 @@ p {
 }
 
 
->>>>>>> master
+
