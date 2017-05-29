@@ -24,6 +24,7 @@ text-align: right;
 }
 
 /*****************
+<<<<<<< HEAD
 Sign in Page
 *****************/
 form
@@ -102,6 +103,7 @@ input
 	 border-radius: 10px;
 	 height: 20px;
 }
+
 
 
 #hyperlinks a
@@ -197,7 +199,6 @@ label, input
 	margin: 20px 50% 10px 20%;
 }
 
-
 /*****************
 About Page
 *****************/
@@ -234,4 +235,3 @@ title {
 	border: 10px solid red;
 	font-family:'Roboto', sans-serif;
 }
-
