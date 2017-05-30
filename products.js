@@ -1,4 +1,4 @@
-var function createProduct(productName, productDescription, productPrice, productColor, imgURL)
+ function createProduct(productName, productDescription, productPrice, productColor, imgURL)
 {
 	var product = {};
 
