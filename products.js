@@ -1,4 +1,4 @@
-var function createProduct(productName, productDescription, productPrice, productColor, imgURL)
+function createProduct(productName, productDescription, productPrice, productColor, imgURL)
 {
 	var product = {};
 
@@ -8,5 +8,3 @@ var function createProduct(productName, productDescription, productPrice, produc
 	product.productColor = productColor;
 	product.imgURL = imgURL;
 }
-
-createProduct('ball pen', '1mm', 3, 'black', 'image/');
