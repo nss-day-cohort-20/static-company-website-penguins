@@ -6,6 +6,8 @@ body {
 #headline {
 	border: 3px solid;
 	width: 70%;
+	margin: 0;
+	padding: 0;
 	text-align: center;
 }
 
@@ -19,4 +21,9 @@ body {
 
 #individual {
 	display: none;
+}
+
+nav {
+text-align: right;
+
 }
