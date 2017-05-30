@@ -1,6 +1,9 @@
+<<<<<<< HEAD
+=======
 
  var function createProduct(productName, productDescription, productPrice, productColor, imgURL)
 
+>>>>>>> 1f6ea729e0cc11adc31c57a39cc6107aca61f263
 function createProduct(productName, productDescription, productPrice, productColor, imgURL)
 {
 	var product = {};
@@ -10,6 +13,9 @@ function createProduct(productName, productDescription, productPrice, productCol
 	product.productPrice = productPrice;
 	product.productColor = productColor;
 	product.imgURL = imgURL;
+<<<<<<< HEAD
+}
+=======
 }
 
 
@@ -35,3 +41,4 @@ createProduct('BIC ballpoint pen', 'Clear reliable pen', .25, 'clear, blue', 'im
 
 createProduct('BIC Economy pen', 'Plastic cheap pen', .25, 'green', 'images/BICEconomy.jpg');
 
+>>>>>>> 1f6ea729e0cc11adc31c57a39cc6107aca61f263
