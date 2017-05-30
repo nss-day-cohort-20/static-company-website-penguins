@@ -9,4 +9,4 @@ var function createProduct(productName, productDescription, productPrice, produc
 	product.imgURL = imgURL;
 }
 
-createProduct('ball pen', '1mm', 3, 'balck', 'image/');
+createProduct('ball pen', '1mm', 3, 'black', 'image/');
