@@ -224,15 +224,12 @@ label, input
 About Page
 *****************/
 
-
-.textalignment {
-
 	
-body {
+#aboutbody {
    text-align: center;
 }
 
-h1 {
+#abouth1 {
 
 	font-size: 70px;
 	font-weight: bold;
@@ -241,7 +238,7 @@ h1 {
 	
 }
 
-title {
+#abouttitle {
 
 	font-size: 70px;
 	font-weight: bold;
@@ -249,13 +246,12 @@ title {
 
 }
 
- #aboutp {
+ #aboutP {
 	
 	width: 60%;
 	font-size: 20px;
 	font-weight: bold;
 	margin: auto;
-	position: relative;
 	border: 10px solid red;
 	font-family:'Roboto', sans-serif;
 }
