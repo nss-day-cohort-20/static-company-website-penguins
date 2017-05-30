@@ -1,6 +1,5 @@
 body {
 	font-family: 'Open Sans', sans-serif;
-	background-color: lightblue;	
 }
 
 #headline {
@@ -24,6 +23,5 @@ body {
 }
 
 nav {
-text-align: right;
-
+	text-align: right;
 }
