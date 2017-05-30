@@ -1,3 +1,7 @@
+
+
+ var function createProduct(productName, productDescription, productPrice, productColor, imgURL)
+
 function createProduct(productName, productDescription, productPrice, productColor, imgURL)
 {
 	var product = {};
@@ -7,15 +11,19 @@ function createProduct(productName, productDescription, productPrice, productCol
 	product.productPrice = productPrice;
 	product.productColor = productColor;
 	product.imgURL = imgURL;
+
 	return product;
+
 }
 
 var listOfProducts = [
 var monteBlanc = createProduct('MonteBlanc Gold Coated Fountain Pen', '18k Gold', 68000, 'Gold, Silver', 'images/MPfountain pen.jpg'),
 
+
 var cartierJaguar = createProduct('Cariter Jaguar Ballpoint Pen', 'Limited Edition Pen', 7800, 'Silver, Black', 'images/CartierJaguar.jpg'),
 
 var CartierDiamond =  createProduct('Cartier Diamond Gold Fountain Pen', 'Limited Edition Pen', 5600, 'Diamond, Gold,' 'images/CartierDiamond.jpg'),
+
 
 var montegrappaRoller = createProduct('Montegrappa Rollerball pen', '18k gold trim', 69000, 'Gold', 'images/Montegrappa.jpeg'),
 
@@ -29,9 +37,11 @@ var bicEconomy = createProduct('BIC Economy pen', 'Plastic cheap pen', 0.25, 'gr
 ];
 
 
+
 // creating tags
 var parentUl = document.getElementById("productList"); //selecting target <ul>
 var nodeToAdd = document.createElement("li"); //create <li> tag
 var text = document.createTextNode("listOfProducts[0]"); //create text to put inside <li>
 nodeToAdd.appendChild(text); //appending text to li
 parentUl.appendChild(nodeToAdd);//appending li to ul
+
