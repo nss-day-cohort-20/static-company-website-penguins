@@ -23,6 +23,28 @@ text-align: right;
    background:#999;
 }
 
+#mainNav
+{
+
+}
+
+#card
+{
+	width: 20%;
+	margin: auto;
+}
+
+#card ul
+{
+	list-style: none;
+}
+
+#card li
+{
+	width: 100%;
+	display: block;
+	float: left;
+}
 /*****************
 Sign in Page
 *****************/
