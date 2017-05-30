@@ -29,7 +29,7 @@ var bicEconomy = createProduct('BIC Economy pen', 'Plastic cheap pen', 0.25, 'gr
 ];
 
 
-
+// creating tags
 var parentUl = document.getElementById("productList"); //selecting target <ul>
 var nodeToAdd = document.createElement("li"); //create <li> tag
 var text = document.createTextNode("listOfProducts[0]"); //create text to put inside <li>
