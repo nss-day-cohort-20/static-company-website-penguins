@@ -10,20 +10,21 @@ body
 {
 	width: 100%;
 	display: inline-block;
-	float: left;
+	/*float: left;*/
 	border: 1px solid black;
 	background-color: white;
+	border-radius: 10px;
 }
 #heading img
 {
 	margin-top: 15px;
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
 	float: left;
 }
 #heading h1
 {
-	font-size: 2em;
+	font-size: 3.5em;
 	width: 50%; 
 	font-family: 'Roboto', sans-serif;
 	text-align: left; 
@@ -43,7 +44,7 @@ body
 	width:100%;
 	text-align: right;
 	background-color: blue;
-
+	border-radius: 10px;
 }
 
 #mainNav ul
@@ -62,15 +63,20 @@ body
 }
 footer 
 {
-	text-align: center;
-	color: white;
-	font-size: 1.2em;
-   position: fixed;
-   left: 0px;
-   bottom: 0px;
+   text-align: center;
+   color: white;
+   font-size: 1.2em;
+   position: static;
    height:30px;
    width:100%;
    background: blue;
+}
+
+#adjustedFooter
+{
+	position: absolute;
+	left: 0px;
+    bottom: -100px;
 }
 
 #mainNav
@@ -80,6 +86,9 @@ footer
 
 .card
 {
+	padding-left: 0;
+	padding-bottom: 10px;
+	overflow: hidden;
 	background-color: white;
 	border: 2px solid black;
 	border-radius: 10px;
@@ -91,6 +100,7 @@ footer
 
 .card ul
 {
+	width: 100%;
 	list-style: none;
 }
 
@@ -105,8 +115,13 @@ footer
 .card img 
 {
 	margin-top: 0;
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
+}
+
+.nameStyling
+{
+	font-weight: 900;
 }
 /*****************
 Sign in Page
@@ -159,6 +174,8 @@ form
  	font-family: 'Roboto' , 'sans-serif';
  	font-size: 1em;
  	background-color: white;
+ 	margin-top: 20px;
+ 	padding-left: 10px;
  }
  
 
@@ -224,11 +241,11 @@ label, input
 {
 	font-size: 20px;
 	text-align: left;
-	width: 50%;
+	width: 40%;
 	/*background-color: black;*/
 	border-radius: 10px;
 	color: black;
-	font-size: 3em;
+	font-size: 2.5em;
 	margin: auto;
 }
 
@@ -243,7 +260,8 @@ label, input
  	font-family: 'Roboto' , 'sans-serif';
  	font-size: 1em;
  	margin: auto;
- 
+ 	padding-left: 10px;
+ 	margin-bottom: 20px;
 }
 
 #register h1
@@ -268,14 +286,14 @@ label, input
 
 .divider label
 {
-	
+	padding-bottom: 10px;
 	width: 30%;
 	float: left;
 }
 
 .divider input
 {
-	width: 40%;
+	width: 50%;
 	float: left;
 }
 

@@ -17,7 +17,7 @@ var monteBlanc = createProduct('MonteBlanc Gold Fountain Pen', '18k Gold', 68000
 
 var cartierJaguar = createProduct('Cariter Jaguar Ballpoint Pen', 'Limited Edition Pen', 7800, 'Silver, Black', 'images/CartierJaguar.jpg');
 
-var cartierDiamond =  createProduct('Cartier Diamond Gold Fountain Pen', 'Limited Edition Pen', 5600, 'Diamond Gold', 'images/CartierDiamond.jpg');
+var cartierDiamond =  createProduct('Cartier Diamond Fountain Pen', 'Limited Edition Pen', 5600, 'Diamond Gold', 'images/CartierDiamond.jpg');
 
 var montegrappaRoller = createProduct('Montegrappa Rollerball pen', '18k gold trim', 69000, 'Gold', 'images/Montegrappa.jpeg');
 
@@ -41,14 +41,14 @@ for(i=0;i<listOfProducts.length; i++)
 	<div class="card">
 		<ul>
 			<li><img src="${listOfProducts[i].imgURL}"></li>
-			<li>${listOfProducts[i].productName}</li>
-			<li>${listOfProducts[i].productPrice}</li>
+			<li class="nameStyling">${listOfProducts[i].productName}</li>
+			<li>$${listOfProducts[i].productPrice}</li>
 			<li>${listOfProducts[i].productColor}</li>
 			<li>${listOfProducts[i].productDescription}</li>
 		</ul>
 	</div>`
 }
-
-document.write(htmlBlock);
+getDiv = document.getElementById("parentDiv");
+getDiv.appendChild(document.write(htmlBlock));
 
 
