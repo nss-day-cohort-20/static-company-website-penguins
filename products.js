@@ -1,3 +1,4 @@
+
 function createProduct(productName, productDescription, productPrice, productColor, imgURL)
 {
 	var product = {};
@@ -10,8 +11,6 @@ function createProduct(productName, productDescription, productPrice, productCol
 
 	return product;
 }
-
-
 
 var monteBlanc = createProduct('MonteBlanc Gold Fountain Pen', '18k Gold', 68000, 'Gold Silver', 'images/MPfountain pen.jpg');
 
@@ -50,5 +49,3 @@ for(i=0;i<listOfProducts.length; i++)
 }
 getDiv = document.getElementById("parentDiv");
 getDiv.appendChild(document.write(htmlBlock));
-
-
