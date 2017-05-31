@@ -1,3 +1,4 @@
+
 function createProduct(productName, productDescription, productPrice, productColor, imgURL)
 {
 	var product = {};
@@ -10,8 +11,6 @@ function createProduct(productName, productDescription, productPrice, productCol
 
 	return product;
 }
-
-
 
 var monteBlanc = createProduct('MonteBlanc Gold Fountain Pen', '18k Gold', 68000, 'Gold Silver', 'images/MPfountain pen.jpg');
 
@@ -35,7 +34,7 @@ var listOfProducts = [monteBlanc, cartierJaguar, cartierDiamond, montegrappaRoll
 
 
 var htmlBlock = "";
-for(i=0;i<listOfProducts.length; i++)
+for( var i=0;i<listOfProducts.length; i++)
 {
 	htmlBlock += `
 	<div class="card">
@@ -48,7 +47,5 @@ for(i=0;i<listOfProducts.length; i++)
 		</ul>
 	</div>`
 }
-getDiv = document.getElementById("parentDiv");
-getDiv.appendChild(document.write(htmlBlock));
 
-
+document.write(htmlBlock);
