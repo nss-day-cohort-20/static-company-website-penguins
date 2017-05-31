@@ -2,25 +2,75 @@
 Main Page
 *****************/
 
-h1 { 
+body
+{
+	background-color: #aed6f1;
+}
+#heading
+{
+	width: 100%;
+	display: inline-block;
+	float: left;
+	border: 1px solid black;
+	background-color: white;
+}
+#heading img
+{
+	margin-top: 15px;
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+#heading h1
+{
+	font-size: 2em;
+	width: 50%; 
 	font-family: 'Roboto', sans-serif;
 	text-align: left; 
+	float: left;
+	padding: 0;
 }
-a {
+#mainNav a 
+{
 	text-decoration: none; 
-font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 1.09em;
+	padding-right: 10px;
 }
-nav {
-text-align: right;
+#mainNav 
+{
+	width:100%;
+	text-align: right;
+	background-color: blue;
 
 }
-#footer {
-   position:fixed;
-   left:0px;
-   bottom:0px;
+
+#mainNav ul
+{
+	
+	border: 1px solid black;
+	display: inline-flex;
+	float: left;
+
+}
+
+#mainNav li
+{
+	list-style: none;
+		color: white;
+}
+footer 
+{
+	text-align: center;
+	color: white;
+	font-size: 1.2em;
+   position: fixed;
+   left: 0px;
+   bottom: 0px;
    height:30px;
    width:100%;
-   background:#999;
+   background: blue;
 }
 
 #mainNav
@@ -28,22 +78,35 @@ text-align: right;
 
 }
 
-#card
+.card
 {
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 10px;
 	width: 20%;
-	margin: auto;
+	margin: 1.25%;
+	display: inline-block;
+	float: left;
 }
 
-#card ul
+.card ul
 {
 	list-style: none;
 }
 
-#card li
+.card li
 {
+	overflow: hidden;
 	width: 100%;
 	display: block;
 	float: left;
+}
+
+.card img 
+{
+	margin-top: 0;
+	width: 100px;
+	height: 100px;
 }
 /*****************
 Sign in Page
@@ -87,15 +150,15 @@ form
 
 #form
  {
- 	/*border:2px solid black;*/
+ 	border:2px solid black;
  	border-radius: 10px;
  	/*padding: 0 10px 10px 10px;*/
- 	width: 50%;
+ 	width: 40%;
  	margin: auto;
  	overflow: hidden;
  	font-family: 'Roboto' , 'sans-serif';
  	font-size: 1em;
- 	
+ 	background-color: white;
  }
  
 
@@ -171,9 +234,11 @@ label, input
 
 #register
 {
+	background-color: white;
+	border: 2px solid black;
 	display: block;
  	border-radius: 10px;
- 	width: 50%;
+ 	width: 40%;
  	overflow: hidden;
  	font-family: 'Roboto' , 'sans-serif';
  	font-size: 1em;
