@@ -2,25 +2,81 @@
 Main Page
 *****************/
 
-h1 { 
+body
+{
+	background-color: #aed6f1;
+}
+#heading
+{
+	width: 100%;
+	display: inline-block;
+	/*float: left;*/
+	border: 1px solid black;
+	background-color: white;
+	border-radius: 10px;
+}
+#heading img
+{
+	margin-top: 15px;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+#heading h1
+{
+	font-size: 3.5em;
+	width: 50%; 
 	font-family: 'Roboto', sans-serif;
 	text-align: left; 
+	float: left;
+	padding: 0;
 }
-a {
+#mainNav a 
+{
 	text-decoration: none; 
-font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 1.09em;
+	padding-right: 10px;
 }
-nav {
-text-align: right;
+#mainNav 
+{
+	width:100%;
+	text-align: right;
+	background-color: blue;
+	border-radius: 10px;
+}
+
+#mainNav ul
+{
+	
+	border: 1px solid black;
+	display: inline-flex;
+	float: left;
 
 }
-#footer {
-   position:fixed;
-   left:0px;
-   bottom:0px;
+
+#mainNav li
+{
+	list-style: none;
+		color: white;
+}
+footer 
+{
+   text-align: center;
+   color: white;
+   font-size: 1.2em;
+   position: static;
    height:30px;
    width:100%;
-   background:#999;
+   background: blue;
+}
+
+#adjustedFooter
+{
+	position: absolute;
+	left: 0px;
+    bottom: -100px;
 }
 
 #mainNav
@@ -28,22 +84,44 @@ text-align: right;
 
 }
 
-#card
+.card
 {
+	padding-left: 0;
+	padding-bottom: 10px;
+	overflow: hidden;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 10px;
 	width: 20%;
-	margin: auto;
+	margin: 1.25%;
+	display: inline-block;
+	float: left;
 }
 
-#card ul
+.card ul
 {
+	width: 100%;
 	list-style: none;
 }
 
-#card li
+.card li
 {
+	overflow: hidden;
 	width: 100%;
 	display: block;
 	float: left;
+}
+
+.card img 
+{
+	margin-top: 0;
+	width: 150px;
+	height: 150px;
+}
+
+.nameStyling
+{
+	font-weight: 900;
 }
 /*****************
 Sign in Page
@@ -87,15 +165,17 @@ form
 
 #form
  {
- 	/*border:2px solid black;*/
+ 	border:2px solid black;
  	border-radius: 10px;
  	/*padding: 0 10px 10px 10px;*/
- 	width: 50%;
+ 	width: 40%;
  	margin: auto;
  	overflow: hidden;
  	font-family: 'Roboto' , 'sans-serif';
  	font-size: 1em;
- 	
+ 	background-color: white;
+ 	margin-top: 20px;
+ 	padding-left: 10px;
  }
  
 
@@ -161,24 +241,27 @@ label, input
 {
 	font-size: 20px;
 	text-align: left;
-	width: 50%;
+	width: 40%;
 	/*background-color: black;*/
 	border-radius: 10px;
 	color: black;
-	font-size: 3em;
+	font-size: 2.5em;
 	margin: auto;
 }
 
 #register
 {
+	background-color: white;
+	border: 2px solid black;
 	display: block;
  	border-radius: 10px;
- 	width: 50%;
+ 	width: 40%;
  	overflow: hidden;
  	font-family: 'Roboto' , 'sans-serif';
  	font-size: 1em;
  	margin: auto;
- 
+ 	padding-left: 10px;
+ 	margin-bottom: 20px;
 }
 
 #register h1
@@ -203,14 +286,14 @@ label, input
 
 .divider label
 {
-	
+	padding-bottom: 10px;
 	width: 30%;
 	float: left;
 }
 
 .divider input
 {
-	width: 40%;
+	width: 50%;
 	float: left;
 }
 
