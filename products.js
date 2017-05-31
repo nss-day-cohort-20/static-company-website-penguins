@@ -12,7 +12,7 @@ function createProduct(productName, productDescription, productPrice, productCol
 	return product;
 }
 
-var monteBlanc = createProduct('MonteBlanc Gold Fountain Pen', '18k Gold', 68000, 'Gold Silver', 'images/MPfountain pen.jpg');
+var monteBlanc = createProduct('MonteBlanc Gold Fountain Pen', '18k Gold', 68000, 'Gold Silver', 'images/MPfountainPen.jpg');
 
 var cartierJaguar = createProduct('Cariter Jaguar Ballpoint Pen', 'Limited Edition Pen', 7800, 'Silver, Black', 'images/CartierJaguar.jpg');
 
