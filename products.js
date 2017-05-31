@@ -1,5 +1,3 @@
- var function createProduct(productName, productDescription, productPrice, productColor, imgURL)
-
 function createProduct(productName, productDescription, productPrice, productColor, imgURL)
 {
 	var product = {};
@@ -9,31 +7,48 @@ function createProduct(productName, productDescription, productPrice, productCol
 	product.productPrice = productPrice;
 	product.productColor = productColor;
 	product.imgURL = imgURL;
+
+	return product;
 }
 
 
-var listOfProducts = [
-var monteBlanc = createProduct('MonteBlanc Gold Coated Fountain Pen', '18k Gold', 68000, 'Gold, Silver', 'images/MPfountain pen.jpg'),
 
-var cartierJaguar = createProduct('Cariter Jaguar Ballpoint Pen', 'Limited Edition Pen', 7800, 'Silver, Black', 'images/CartierJaguar.jpg'),
+var monteBlanc = createProduct('MonteBlanc Gold Fountain Pen', '18k Gold', 68000, 'Gold Silver', 'images/MPfountain pen.jpg');
 
-var CartierDiamond =  createProduct('Cartier Diamond Gold Fountain Pen', 'Limited Edition Pen', 5600, 'Diamond, Gold,' 'images/CartierDiamond.jpg'),
+var cartierJaguar = createProduct('Cariter Jaguar Ballpoint Pen', 'Limited Edition Pen', 7800, 'Silver, Black', 'images/CartierJaguar.jpg');
 
-var montegrappaRoller = createProduct('Montegrappa Rollerball pen', '18k gold trim', 69000, 'Gold', 'images/Montegrappa.jpeg'),
+var cartierDiamond =  createProduct('Cartier Diamond Fountain Pen', 'Limited Edition Pen', 5600, 'Diamond Gold', 'images/CartierDiamond.jpg');
 
-var montegrappaDucale = createProduct('Montegrappa Ducale Black Rose Gold roller', 'Rose Gold Pen', 4800, 'Rose Gold', 'images/MGDucale.jpg' ),
+var montegrappaRoller = createProduct('Montegrappa Rollerball pen', '18k gold trim', 69000, 'Gold', 'images/Montegrappa.jpeg');
 
-var gerber = createProduct('Gerber Survival Pen', 'Rugged Survival Pen', 7, 'Gray', 'images/Gerber.jpg'),
+var montegrappaDucale = createProduct('Montegrappa Ducale Black roller', 'Rose Gold Pen', 4800, 'Rose Gold', 'images/MGDucale.jpg' );
 
-var bicBall = createProduct('BIC ballpoint pen', 'Clear reliable pen', 0.25, 'clear, blue', 'images/BIC.jpg'),
+var gerber = createProduct('Gerber Survival Pen', 'Rugged Survival Pen', 7, 'Gray', 'images/Gerber.jpg');
 
-var bicEconomy = createProduct('BIC Economy pen', 'Plastic cheap pen', 0.25, 'green', 'images/BICEconomy.jpg'),
-];
+var bicBall = createProduct('BIC ballpoint pen', 'Clear reliable pen', 0.25, 'clear, blue', 'images/BIC.jpg');
 
+var bicEconomy = createProduct('BIC Economy pen', 'Plastic cheap pen', 0.25, 'green', 'images/BICEconomy.jpg');
 
 
-var parentUl = document.getElementById("productList"); //selecting target <ul>
-var nodeToAdd = document.createElement("li"); //create <li> tag
-var text = document.createTextNode("listOfProducts[0]"); //create text to put inside <li>
-nodeToAdd.appendChild(text); //appending text to li
-parentUl.appendChild(nodeToAdd);//appending li to ul
+var listOfProducts = [monteBlanc, cartierJaguar, cartierDiamond, montegrappaRoller, montegrappaDucale, gerber, bicBall, bicEconomy]; //array of objects
+
+
+
+var htmlBlock = "";
+for(i=0;i<listOfProducts.length; i++)
+{
+	htmlBlock += `
+	<div class="card">
+		<ul>
+			<li><img src="${listOfProducts[i].imgURL}"></li>
+			<li class="nameStyling">${listOfProducts[i].productName}</li>
+			<li>$${listOfProducts[i].productPrice}</li>
+			<li>${listOfProducts[i].productColor}</li>
+			<li>${listOfProducts[i].productDescription}</li>
+		</ul>
+	</div>`
+}
+getDiv = document.getElementById("parentDiv");
+getDiv.appendChild(document.write(htmlBlock));
+
+
