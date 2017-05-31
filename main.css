@@ -87,7 +87,8 @@ footer
 .card
 {
 	padding-left: 0;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
+	padding-right: 20px;
 	overflow: hidden;
 	background-color: white;
 	border: 2px solid black;
@@ -100,12 +101,14 @@ footer
 
 .card ul
 {
+	padding-left: 0;
 	width: 100%;
 	list-style: none;
 }
 
 .card li
 {
+	padding-left: 0;
 	overflow: hidden;
 	width: 100%;
 	display: block;
@@ -303,12 +306,17 @@ label, input
 	margin: 20px 50% 10px 20%;
 }
 
+.adjustedFooter
+{
+	position: absolute;
+	left: 0px;
+	bottom: -100px;
+}
+
 /*****************
 About Page
 *****************/
 
-
-.textalignment {
 
 	
 body {
